@@ -24,7 +24,12 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 ## <a name="einfuehrung"></a> Einführung
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Als vierköpfiges Team von Studenten der Hochschule Mannheim, haben wir als "GoGreen" das Folgende Projekt, im Rahmen des Wahlfaches "Grundlagen der Datenvisualisierung" bei Prof. Dr. Till Nagel an der Hochschule Mannheim, durchgeführt. Hierbei sollten urbane Daten von Städten aus dem EU Raum mit mehr als 250.000 Einwohner ausgewählt, aufbereitet und analysiert werden. Wir haben uns dafür entschieden Luftqualitätsdaten der Stadt Barcelona über den zeitlichen Verlauf zu betrachten. Der explizite Vergleich zwischen den Jahren 2019 und 2020 war uns hierbei wichtig, um Einblicke in potentielle Unterschiede zu erhalten.
+
+Motivation
+Aufgrund der Corona Pandemie 
+
+
 
 
 ## Test
