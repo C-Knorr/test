@@ -18,9 +18,10 @@ Die Coronapandemie hat Auswirkungen auf verschiedenster Ebenen auf der ganzen We
 
 Im Rahmen der Vorlesung Grundlagen der Datenvisualisierung des Wintersemesters 2020/2021 ist dieses Projekt entstanden. Als vierköpfiges Team sollten wir urbane Daten einer Stadt mit mehr als 250.000 Einwohnern aus dem EU Raum auswählen, aufbereiten, analysieren und abschließend mit einer interaktiven Visualisierung angemessen darstellen. Relativ schnell nach Start des Projekts entstand innerhalb des Teams der Wunsch, Luftqualitätsdaten einer großen Stadt zu untersuchen. Die Luftqualität als zentrales Merkmal des Projekts auszuwählen war in unserem Interesse, da unter anderem ein Teammitglied aus Stuttgart... Aufgrund eines umfangreichen Datenangebots des städtischen Open Data Portals, wurde die Stadt Barcelona ausgewählt. Als Untersuchungsmerkmal wurde zunächst die Verkehrsinfrafstruktur Barcelonas gewählt. Nach einer ausführlichen Datenauswertung entschieden wir uns allerdings dazu, die Luftqualitätsdaten im Zusammenhang mit der Coronapandemie zu betrachten.
 Unser Ziel war es letztendlich folgende Fragen zu beantworten:
-#Punkt 1
-#Punkt 2
-#Punkt 3
+
+*Punkt 1
+*Punkt 2
+*Punkt 3
 
 Unser Dashboard wurde dabei mit plotlxy/dash umgesetzt.
 
