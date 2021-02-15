@@ -10,15 +10,16 @@
 
 
 ## <a name="einführung"></a> Einführung 
-Barcelonas Luftqualität während einer Pandemie\h
+Barcelonas Luftqualität während einer Pandemie
 
-Die Coronapandemie hat Auswirkungen auf verschiedenster Ebenen auf der ganzen Welt. Zu Beginn der Pandemie war Spanien eins der betroffensten Ländern. Um das Verbreiten des Virus einzudämmen, wählte Spanien im zweiten Quartal des Jahres 2020 den Weg den harten Lockdowns. Wie sich der Lockdown und generell das Leben während einer Pandemie auf die Luftqualität der Stadt Barcelona auswirkt, wurde in diesem Projekt näher betrachtet.
+Die Coronapandemie hat Auswirkungen auf verschiedenster Ebenen auf der ganzen Welt. Zu Beginn der Pandemie war Spanien eins der betroffensten Ländern. Um das Verbreiten des Virus einzudämmen, wählte Spanien im zweiten Quartal des Jahres 2020 den Weg des harten Lockdowns. Wie sich der Lockdown und generell das Leben während einer Pandemie auf die Luftqualität der Stadt Barcelona auswirkt, wurde in diesem Projekt näher betrachtet.
 
 ## <a name="konzept"></a> Konzept 
 
-Im Rahmen der Vorlesung Grundlagen der Datenvisualisierung ist dieses Projekt entstanden. Als vierköpfiges Team sollten wir urbane Daten einer Stadt mit mehr als 250.000 Einwohnern, aus dem EU Raum, auswählen, aufbereiten, analysieren und abschließend mit einer interaktiven Visualisierung angemessen darstellen.
+Im Rahmen der Vorlesung Grundlagen der Datenvisualisierung des Wintersemesters 2020/2021 ist dieses Projekt entstanden. Als vierköpfiges Team sollten wir urbane Daten einer Stadt mit mehr als 250.000 Einwohnern aus dem EU Raum auswählen, aufbereiten, analysieren und abschließend mit einer interaktiven Visualisierung angemessen darstellen. Relativ schnell nach Start des Projekts entstand innerhalb des Teams der Wunsch, Luftqualitätsdaten einer großen Stadt zu untersuchen. Die Luftqualität als zentrales Merkmal des Projekts auszuwählen
 
 ## <a name="datenquellen"></a> Datenquellen 
+Als zentrale Datenquelle der Luftqualitätsdaten Barcelonas, wurde das open-data Portal der Stadt Barcelona gewählt. [a link](https://opendata-ajuntament.barcelona.cat/data/en/dataset)
 
 
 
