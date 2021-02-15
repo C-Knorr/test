@@ -6,7 +6,7 @@
 
 * [Datenquellen](#datenquellen)
 
-* [Datenaufbereitung](#datenaufbereitung)
+* [Datenauswertung und -aufbereitung](#datenauswertung und -aufbereitung)
 
 
 ## <a name="einführung"></a> Einführung 
@@ -25,7 +25,7 @@ Unser Ziel war es letztendlich folgende Fragen zu beantworten:
 
 * Punkt 3
 
-Unser Dashboard wurde dabei mit plotlxy/dash umgesetzt.
+Unser Dashboard wurde dabei mit plotly/dash umgesetzt.
 
 ## <a name="datenquellen"></a> Datenquellen 
 Als zentrale Datenquelle der Luftqualitätsdaten Barcelonas, wurde das [Open Data Portal](https://opendata-ajuntament.barcelona.cat/data/en/dataset) der Stadt Barcelona gewählt. Gemessene Daten zur Luftqualität werden seit dem Jahr 2018 von sieben Messstationen auf diesem Portal zur Verfügung gestellt. Es werden Daten zu CO, NO, NO2, O3, PM10 und SO2 erhoben, wobei nicht alle Messstationen alle Schadstoffe messen. Aufgrund einer geänderten Datenstrukturierung seit April 2019, wurden ab diesem Zeitpunkt die Luftqualitätsdaten im Projekt verwendet. Ältere Daten konnten aufgrund der erfolgten Änderungen nicht sinnvoll verwendet werden.
@@ -36,13 +36,10 @@ Die Ereignisse, die im Zeitstrahl der Coronainzidenzien dargestellt werden, wurd
 
 ## <a name="datenauauswertung und - aufbereitung"></a> Datenauswertung und -aufbereitung 
 
+Inzidenz- und Todeszahlen, sowie die Ereignisdaten im Rahmen der Coronapandemie konnten ohne weitere Bearbeitung verwendet werden.
 
-## Test
+Die Daten zur Luftqualität mussten zunächst bearbeitet werden, um diese in dem geplanten Umfang einsetzen zu können. Zum einen musste das Format der Messstationskoordinaten umgewandelt werden, um diese problemlos weiterzuverwenden. Die vorhandenen Koordinaten im Format ED50 wurden per Pythonskript in ein übliches Format zu Längen- und Breitengrad transformiert.
 
-Beispieltabelle
 
-Spalte 1 | Spalte 2 
------------- | -------
-Zeile 1 | Zeile 1
-Zeile 2 | Zeile 2
+
 
