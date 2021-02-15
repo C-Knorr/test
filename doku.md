@@ -1,34 +1,24 @@
 # GoGreen GDV Dokumentation
 
-* [Abstract](#abstract)
+* [Einführung](#einführung)
 
-* [Einführung](#einfuehrung)
+* [Konzept](#konzept)
 
-* [Daten](#daten)
+* [Datenquellen](#datenquellen)
 
-* [Auswertung](#auswertung)
-
-* [Prototyp](#prototyp)
-
-* [Ergebnisse](#ergebnisse)
-
-* [Erkenntnisse](#erkenntnisse)
-
-* [Fazit](#fazit)
+* [Datenquellen](#datenquellen)
 
 
+## <a name="einführung"></a> Einführung 
+Barcelonas Luftqualität während einer Pandemie\h
 
-## <a name="abstract"></a> Abstract 
+Die Coronapandemie hat Auswirkungen auf verschiedenster Ebenen auf der ganzen Welt. Zu Beginn der Pandemie war Spanien eins der betroffensten Ländern. Um das Verbreiten des Virus einzudämmen, wählte Spanien im zweiten Quartal des Jahres 2020 den Weg den harten Lockdowns. Wie sich der Lockdown und generell das Leben während einer Pandemie auf die Luftqualität der Stadt Barcelona auswirkt, wurde in diesem Projekt näher betrachtet.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+## <a name="konzept"></a> Konzept 
 
-## <a name="einfuehrung"></a> Einführung
+Im Rahmen der Vorlesung Grundlagen der Datenvisualisierung ist dieses Projekt entstanden. Als vierköpfiges Team sollten wir urbane Daten einer Stadt mit mehr als 250.000 Einwohnern, aus dem EU Raum, auswählen, aufbereiten, analysieren und abschließend mit einer interaktiven Visualisierung angemessen darstellen.
 
-Als vierköpfiges Team von Studenten der Hochschule Mannheim, haben wir als "GoGreen" das Folgende Projekt, im Rahmen des Wahlfaches "Grundlagen der Datenvisualisierung" bei Prof. Dr. Till Nagel an der Hochschule Mannheim, durchgeführt. Hierbei sollten urbane Daten von Städten aus dem EU Raum mit mehr als 250.000 Einwohner ausgewählt, aufbereitet und analysiert werden. Wir haben uns dafür entschieden Luftqualitätsdaten der Stadt Barcelona über den zeitlichen Verlauf zu betrachten. Der explizite Vergleich zwischen den Jahren 2019 und 2020 war uns hierbei wichtig, um Einblicke in potentielle Unterschiede zu erhalten.
-
-Motivation
-Aufgrund der Corona Pandemie 
-
+## <a name="datenquellen"></a> Datenquellen 
 
 
 
@@ -41,14 +31,3 @@ Spalte 1 | Spalte 2
 Zeile 1 | Zeile 1
 Zeile 2 | Zeile 2
 
-## <a name="daten"></a> Daten 
-
-## <a name="auswertung"></a> Auswertung
-
-## <a name="prototyp"></a> Prototyp
-
-## <a name="ergebnisse"></a> Ergebnisse
-
-## <a name="erkenntnisse"></a> Erkenntnisse
-
-## <a name="fazit"></a> Fazit
