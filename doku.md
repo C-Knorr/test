@@ -6,7 +6,7 @@
 
 * [Datenquellen](#datenquellen)
 
-* [Datenauswertung und -aufbereitung](#datenauswertung und -aufbereitung)
+* [Datenauswertung und -aufbereitung](#datenauswertung)
 
 
 ## <a name="einführung"></a> Einführung 
@@ -34,7 +34,7 @@ Die im Projekt verwendeten Corona Infektions- und Todeszahlen der Stadt Barcelon
 
 Die Ereignisse, die im Zeitstrahl der Coronainzidenzien dargestellt werden, wurden aus verschiedenen Nachrichtenportalen entnommen.
 
-## <a name="datenauswertung und -aufbereitung"></a> Datenauswertung und -aufbereitung 
+## <a name="datenauswertung"></a> Datenauswertung und -aufbereitung 
 
 Inzidenz- und Todeszahlen, sowie die Ereignisdaten im Rahmen der Coronapandemie konnten ohne weitere Bearbeitung verwendet werden.
 
