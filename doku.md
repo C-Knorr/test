@@ -19,7 +19,7 @@ Die Coronapandemie hat Auswirkungen auf verschiedenster Ebenen auf der ganzen We
 Im Rahmen der Vorlesung Grundlagen der Datenvisualisierung des Wintersemesters 2020/2021 ist dieses Projekt entstanden. Als vierköpfiges Team sollten wir urbane Daten einer Stadt mit mehr als 250.000 Einwohnern aus dem EU Raum auswählen, aufbereiten, analysieren und abschließend mit einer interaktiven Visualisierung angemessen darstellen. Relativ schnell nach Start des Projekts entstand innerhalb des Teams der Wunsch, Luftqualitätsdaten einer großen Stadt zu untersuchen. Die Luftqualität als zentrales Merkmal des Projekts auszuwählen
 
 ## <a name="datenquellen"></a> Datenquellen 
-Als zentrale Datenquelle der Luftqualitätsdaten Barcelonas, wurde das open-data Portal der Stadt Barcelona gewählt. [a link](https://opendata-ajuntament.barcelona.cat/data/en/dataset)
+Als zentrale Datenquelle der Luftqualitätsdaten Barcelonas, wurde das [Open Data Portal](https://opendata-ajuntament.barcelona.cat/data/en/dataset) der Stadt Barcelona gewählt. [Open Data Portal](https://opendata-ajuntament.barcelona.cat/data/en/dataset)
 
 
 
