@@ -20,7 +20,9 @@ Im Rahmen der Vorlesung Grundlagen der Datenvisualisierung des Wintersemesters 2
 Unser Ziel war es letztendlich folgende Fragen zu beantworten:
 
 *Punkt 1
+
 *Punkt 2
+
 *Punkt 3
 
 Unser Dashboard wurde dabei mit plotlxy/dash umgesetzt.
