@@ -22,11 +22,13 @@ Im Rahmen der Vorlesung Grundlagen der Datenvisualisierung des Wintersemesters 2
 
 Aufgrund eines umfangreichen Datenangebots des städtischen Open Data Portals, wurde die Stadt Barcelona ausgewählt. Als Untersuchungsmerkmal wurde zunächst die Verkehrsinfrafstruktur Barcelonas gewählt. Nach einer ausführlichen Datenauswertung, mit wenig vielversprechenden Erkenntnissen und aufgrund der Aktualität entschieden wir uns allerdings dazu, die Luftqualitätsdaten im Zusammenhang mit der Coronapandemie zu betrachten. Dabei sollten Coronainzidenz- sowie Todeszahlen und weitergehend Ereignissdaten zur Coronapandemie eingebunden werden, um folgende Fragen zu beantworten:
 
-* Punkt 1
+* Hat die Coronapandemie maßgebliche Auswirkungen auf die Luftqualität in der Stadt Barcelona?
 
-* Punkt 2
+* Gab es Unterschiede und Änderungen in Bezug auf verschiedene Ereignisse und Einschränkungen, die während der Pandemie stattfanden?
 
-* Punkt 3
+* Gibt es einen Unterschied zwischen den verschiedenen Schadstoffarten?
+
+* Gibt es Auffälligkeiten und Unterschiede zwischen den einzelnen Messstationen?
 
 Unser Dashboard wurde dabei mit Plotly/Dash umgesetzt.
 
@@ -39,14 +41,15 @@ Die Ereignisse, die im angedachten Zeitstrahl der Coronainzidenzien dargestellt 
 
 ## <a name="datenauswertung"></a> Datenauswertung und -aufbereitung 
 
-Die Daten der spanischen Ereignisse rund um Corona wurden in einer Exceldatei aggregiert und mit dem jeweiligen Datum versehen. Um die Datei in einem Graphen abbilden zu können, wurde ein fiktiver Hilfswert eingefügt.
+Die Daten der spanischen Ereignisse rund um Corona wurden in einer Exceldatei aggregiert und mit dem jeweiligen Datum versehen. Um die Datei in einem Graphen abbilden zu können, wurde der Hilfswer "" für alle Einträge eingefügt.
 
-Die Daten der Inzidenz- und Todeszahlen der einzelnen Monate wurden in einer Tabelle zusammengefasst. Fehlende Inzidenz- und Todeszahlen für Januar und Februar 2020 wurden mit dem Wert 0 ergänzt.
+Die Daten der Inzidenz- und Todeszahlen der einzelnen Monate wurden in einer Tabelle zusammengefasst. Fehlende Inzidenz- und Todeszahlen für Januar und Februar 2020 wurden mit dem Wert 0 ergänzt, um diese Daten in Rechnungen mit einzubeziehen.
 
 Die Daten zur Luftqualität mussten zunächst bearbeitet werden, um diese in dem geplanten Umfang einsetzen zu können. Die csv-Dateien der einzelnen Monate wurden in einer Tabelle zusammengefasst. Zusätzlich wurden separate Tabellen für die einzelnen Schadstoffarten erzeugt, um performantere Daten einbinden zu können. Zudem galt es, die Messstationskoordinaten, die im Format ED50 vorlagen, umzuwandeln, um diese weiterzuverwenden zu können. Mit der Software QGIS wurden die Koordinaten in das Format WGS84 transformiert. Dieses Koordinatenformat konnte im weiteren Verlauf in verschiedenen Programmen problemlos zur Darstellung eingesetzt werden.
 
 Die Auswertung der Geografischen Daten erfolgte ebenfalls mit QGIS. Es wurde eingesetzt, um
 
+Die Daten der Luftqualtät wurden mit Hilfe von 
 
 
 
