@@ -18,9 +18,9 @@ Die Coronapandemie hat Auswirkungen auf verschiedenster Ebenen auf der ganzen We
 
 ## <a name="konzept"></a> Konzept 
 
-Im Rahmen der Vorlesung Grundlagen der Datenvisualisierung des Wintersemesters 2020/2021 ist dieses Projekt entstanden. Als vierköpfiges Team sollten wir urbane Daten einer Stadt mit mehr als 250.000 Einwohnern aus dem EU Raum auswählen, aufbereiten, analysieren und abschließend mit einer interaktiven Visualisierung angemessen darstellen. Relativ schnell nach Start des Projekts entstand innerhalb des Teams der Wunsch, Luftqualitätsdaten einer großen Stadt zu untersuchen. Die Luftqualität als zentrales Merkmal des Projekts auszuwählen war in unserem Interesse, da in unserem Team ein gesteigertes Umweltbewusstsein vorhanden ist und ein Gruppenmitglied aus Stuttgart, eier Stadt mit..., stammt.
+Im Rahmen der Vorlesung Grundlagen der Datenvisualisierung des Wintersemesters 2020/2021 ist dieses Projekt entstanden. Als vierköpfiges Team sollten wir urbane Daten einer Stadt mit mehr als 250.000 Einwohnern aus dem EU Raum auswählen, aufbereiten, analysieren und abschließend mit einer interaktiven Visualisierung angemessen darstellen. Relativ schnell nach Start des Projekts entstand innerhalb des Teams der Wunsch, Luftqualitätsdaten einer großen Stadt zu untersuchen. Die Luftqualität als zentrales Merkmal des Projekts auszuwählen war in unserem Interesse, da in unserem Team ein gesteigertes Umweltbewusstsein vorhanden ist und ein Gruppenmitglied aus Stuttgart, einer Stadt mit sehr hoher Luftbelastung, stammt.
 
-Aufgrund eines umfangreichen Datenangebots des städtischen Open Data Portals, wurde die Stadt Barcelona ausgewählt. Als Untersuchungsmerkmal wurde zunächst die Verkehrsinfrafstruktur Barcelonas gewählt. Nach einer ausführlichen Datenauswertung, mit wenig vielversprechenden Erkenntnissen und aufgrund der Aktualität entschieden wir uns allerdings dazu, die Luftqualitätsdaten im Zusammenhang mit der Coronapandemie zu betrachten. Dabei sollten Coronainzidenz- sowie Todeszahlen und weitergehend Ereignissdaten zur Coronapandemie eingebunden werden, um folgende Fragen zu beantworten:
+Aufgrund eines umfangreichen Datenangebots des städtischen Open Data Portals, wurde die Stadt Barcelona ausgewählt. Als Untersuchungsmerkmal wurde zunächst die Verkehrsinfrafstruktur Barcelonas gewählt. Nach einer ausführlichen Datenauswertung, mit wenig vielversprechenden Erkenntnissen, und aufgrund der Aktualität entschieden wir uns allerdings dazu, die Luftqualitätsdaten im Zusammenhang mit der Coronapandemie zu betrachten. Dabei sollten Coronainzidenz- sowie Todeszahlen und weitergehende Ereignissdaten zur Coronapandemie eingebunden werden, um folgende Fragen zu beantworten:
 
 * Hat die Coronapandemie maßgebliche Auswirkungen auf die Luftqualität in der Stadt Barcelona?
 
@@ -41,7 +41,7 @@ Die Ereignisse, die im angedachten Zeitstrahl der Coronainzidenzien dargestellt 
 
 ## <a name="datenauswertung"></a> Datenauswertung und -aufbereitung 
 
-Die Daten der spanischen Ereignisse rund um Corona wurden in einer Exceldatei aggregiert und mit dem jeweiligen Datum versehen. Um die Datei in einem Graphen abbilden zu können, wurde der Hilfswer "" für alle Einträge eingefügt.
+Die Daten der spanischen Ereignisse rund um Corona wurden in einer Exceldatei aggregiert und mit dem jeweiligen Datum versehen. Um die Datei in einem Graphen abbilden zu können, wurde der Hilfswert "X" für alle Einträge eingefügt.
 
 Die Daten der Inzidenz- und Todeszahlen der einzelnen Monate wurden in einer Tabelle zusammengefasst. Fehlende Inzidenz- und Todeszahlen für Januar und Februar 2020 wurden mit dem Wert 0 ergänzt, um diese Daten in Rechnungen mit einzubeziehen.
 
