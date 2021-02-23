@@ -43,17 +43,12 @@ Im Rahmen einer Anfrage an die Universitat Politècnica de Catalunya, einer tech
 
 ## <a name="datenauswertung"></a> Datenauswertung und -aufbereitung 
 
-Die Daten der spanischen Ereignisse rund um Corona wurden in einer Exceldatei aggregiert und mit dem jeweiligen Datum versehen. Um die Datei in einem Graphen abbilden zu können, wurde der Hilfswert "X" für alle Einträge eingefügt.
+Die Daten der spanischen Ereignisse rund um Corona wurden in einer csv-Datei zusammengefasst und mit dem jeweiligen Datum versehen.
 
-Die Daten der Inzidenz- und Todeszahlen der einzelnen Monate wurden in einer Tabelle zusammengefasst. Fehlende Inzidenz- und Todeszahlen für Januar und Februar 2020 wurden mit dem Wert 0 ergänzt, um diese Daten in Rechnungen mit einzubeziehen.
+Die Daten der Inzidenz- und Todeszahlen der einzelnen Monate wurden in einer Tabelle zusammengefasst. Fehlende Inzidenz- und Todeszahlen für Januar und Februar 2020 wurden mit dem Wert 0 ergänzt, um diese Daten in Rechnungen mit einzubeziehen und sinnvoll darstellen zu können.
 
-Die Daten zur Luftqualität mussten zunächst bearbeitet werden, um diese in dem geplanten Umfang einsetzen zu können. Die csv-Dateien der einzelnen Monate wurden in einer Tabelle zusammengefasst. Zusätzlich wurden separate Tabellen für die einzelnen Schadstoffarten erzeugt, um performantere Daten einbinden zu können. Zudem galt es, die Messstationskoordinaten, die im Format ED50 vorlagen, umzuwandeln, um diese weiterzuverwenden zu können. Mit der Software QGIS wurden die Koordinaten in das Format WGS84 transformiert. Dieses Koordinatenformat konnte im weiteren Verlauf in verschiedenen Programmen problemlos zur Darstellung eingesetzt werden.
+Die Daten zur Luftqualität mussten zunächst aufbereitet werden, um diese in dem geplanten Umfang einsetzen zu können. Die csv-Dateien der einzelnen Monate wurden in einer Tabelle zusammengefasst. Zusätzlich wurden separate Tabellen für die einzelnen Schadstoffarten erzeugt, um Daten performanter einbinden zu können. 
 
-Im Rahmen der explorativen Datenanalyse, wurden zunächst die Luftqualitätsdaten mit Hilfe der Software Tableau initial untersucht. Zunächst wurden die vorhandenen Daten auf Vollständigkeit und Extreme untersucht. Dabei fiel auf, dass an vereinzelten Tagen auffällig hohe Luftverschmutzungsdaten gemessen. Die gemessene Daten überstiegen den üblichen Rahmen um ein vielfaches. Dennoch entschieden wir uns dafür diese Ausreißer nicht zu löschen und weiterzuverwenden. Erste Auffälligkeiten im zeitlichen wurden ebenfalls durch die Datenanalyse in Tableau festgestellt. Unterschiede und Schwankungen in Bezug auf die einzelnen Schadstoffarten konnten hierbei aufgedeckt werden. Die Erkenntnisse halfen dabei einordnen zu können, welche Schadstoffwerte überwiegend während der Pandemie im Vergleich zum Vorjahr abwichen und welche nicht.
+Im Rahmen der explorativen Datenanalyse, wurden zunächst die Luftqualitätsdaten mit Hilfe der Software Tableau initial untersucht. Zunächst wurden die vorhandenen Daten auf Vollständigkeit und Extremwerte untersucht. Dabei fiel auf, dass an vereinzelten Tagen auffällig hohe Luftverschmutzungsdaten gemessen. Die gemessene Daten überstiegen den üblichen Rahmen um ein Vielfaches. Dennoch entschieden wir uns dafür diese Ausreißer nicht zu löschen und weiterzuverwenden, da stündliche Ausreißer in der durchschnittlichen Betrachtung weniger ins Gewicht fallen. Erste Auffälligkeiten im zeitlichen Verlauf wurden ebenfalls durch die Datenanalyse in Tableau festgestellt. Unterschiede und Schwankungen in Bezug auf die einzelnen Schadstoffarten konnten hierbei aufgedeckt werden. Die Erkenntnisse halfen dabei einordnen zu können, welche Schadstoffwerte überwiegend während der Pandemie im Vergleich zum Vorjahr abwichen und welche nicht.
 
-Mit Hilfe von QGIS wurde die geografische Lage der Messstationen untersucht. Wir wollten uns ein erstes Bild verschaffen, wie die Messstationen innerhalb der Stadt verteilt waren und welche Charakteristika im Umkreis der Stationen vorhanden waren.
-
-
-
-
-
+Mit Hilfe von QGIS wurde die geografische Lage der Messstationen untersucht. Wir wollten uns ein erstes Bild verschaffen, wie die Messstationen innerhalb der Stadt verteilt und welche Charakteristika im Umkreis der Stationen vorhanden waren.
