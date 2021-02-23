@@ -33,11 +33,13 @@ Aufgrund eines umfangreichen Datenangebots des städtischen Open Data Portals, w
 Unser Dashboard wurde dabei mit Plotly/Dash umgesetzt.
 
 ## <a name="datenquellen"></a> Datenquellen 
-Als zentrale Datenquelle der Luftqualitätsdaten Barcelonas, wurde das [Open Data Portal](https://opendata-ajuntament.barcelona.cat/data/en/dataset) der Stadt Barcelona gewählt. Gemessene Daten zur Luftqualität werden seit dem Jahr 2018 von sieben Messstationen auf diesem Portal zur Verfügung gestellt. Es werden Daten zu CO, NO, NO2, O3, PM10 und SO2 erhoben, wobei nicht alle Messstationen alle Schadstoffe messen. Aufgrund einer geänderten Datenstrukturierung seit April 2019, wurden ab diesem Zeitpunkt die Luftqualitätsdaten im Projekt verwendet. Ältere Daten konnten aufgrund der erfolgten Änderungen nicht sinnvoll verwendet werden. Die Daten lagen monatsweise im csv-Format vor.
+Als zentrale Datenquelle der Luftqualitätsdaten Barcelonas, wurde das [Open Data Portal](https://opendata-ajuntament.barcelona.cat/data/en/dataset) der Stadt Barcelona gewählt. Das Open Data Portal überzeugte hierbei durch einer großen Datenvielfalt und der Sprachauswahlmöglichkeit, welche wir bei anderen Open Data Portalen, wie zum Beispiel das Datenportal Amsterdams, vermisst haben. Gemessene Daten zur Luftqualität werden seit dem Jahr 2018 von sieben Messstationen auf diesem Portal zur Verfügung gestellt. Es werden Daten zu CO, NO, NO2, O3, PM10 und SO2 erhoben, wobei nicht alle Messstationen alle Schadstoffe messen. Aufgrund einer geänderten Datenstrukturierung seit April 2019, wurden ab diesem Zeitpunkt die Luftqualitätsdaten im Projekt verwendet. Ältere Daten konnten aufgrund der erfolgten Änderungen nicht sinnvoll verwendet werden. Die Daten lagen monatsweise im csv-Format vor.
 
 Die im Projekt verwendeten Corona Infektions- und Todeszahlen der Stadt Barcelona, entstammen aus... und lagen für die einzelnen Monate im Format vor.
 
 Die Ereignisse, die im angedachten Zeitstrahl der Coronainzidenzien dargestellt werden sollten, wurden aus verschiedenen Nachrichtenportalen entnommen.
+
+Im Rahmen einer Anfrage an die Universitat Politècnica de Catalunya, einer technischen Universität in Barcelona, die eigene Luftmessstationen betreibt, erhofften wir uns weitere Luftqualitätsdaten zu erhalten, um eine breitere, aussagekräftigere Datenbasis zu erhalten. Zu unserem Bedauern konnten uns allerdings keine für unser Projekt hilfreiche Datensätze zur Verfügung gestellt werden.
 
 ## <a name="datenauswertung"></a> Datenauswertung und -aufbereitung 
 
@@ -47,9 +49,9 @@ Die Daten der Inzidenz- und Todeszahlen der einzelnen Monate wurden in einer Tab
 
 Die Daten zur Luftqualität mussten zunächst bearbeitet werden, um diese in dem geplanten Umfang einsetzen zu können. Die csv-Dateien der einzelnen Monate wurden in einer Tabelle zusammengefasst. Zusätzlich wurden separate Tabellen für die einzelnen Schadstoffarten erzeugt, um performantere Daten einbinden zu können. Zudem galt es, die Messstationskoordinaten, die im Format ED50 vorlagen, umzuwandeln, um diese weiterzuverwenden zu können. Mit der Software QGIS wurden die Koordinaten in das Format WGS84 transformiert. Dieses Koordinatenformat konnte im weiteren Verlauf in verschiedenen Programmen problemlos zur Darstellung eingesetzt werden.
 
-Die Auswertung der Geografischen Daten erfolgte ebenfalls mit QGIS. Es wurde eingesetzt, um
+Im Rahmen der explorativen Datenanalyse, wurden zuächst die Luftqualitätsdaten mit Hilfe der Software Tableau initial untersucht. Zunächst wurden die vorhandenen Daten auf Vollständigkeit und Extreme untersucht. Dabei fiel auf, dass an vereinzelten Tagen auffällig hohe Luftverschmutzungsdaten gemessen. Die gemessene Daten überstiegen den üblichen Rahmen um ein vielfaches. Dennoch entschieden wir uns dafür diese Ausreißer nicht zu löschen und weiterzuverwenden. Erste Auffälligkeiten im zeitlichen wurden ebenfalls durch die Datenanalyse in Tableau festgestellt. Unterschiede und Schwankungen in Bezug auf die einzelnen Schadstoffarten konnten hierbei aufgedeckt werden. Die Erkenntnisse halfen dabei einordnen zu können, welche Schadstoffwerte überwiegend während der Pandemie im Vergleich zum Vorjahr abwichen und welche nicht.
 
-Die Daten der Luftqualtät wurden mit Hilfe von 
+Mit Hilfe von QGIS wurde die geografische Lage der Messstationen untersucht. Wir wollten uns ein erstes Bild verschaffen, wie die Messstationen innerhalb der Stadt verteilt waren und welche Charakteristika im Umkreis der Stationen vorhanden waren.
 
 
 
