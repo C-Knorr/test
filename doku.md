@@ -2,13 +2,6 @@
 
 * [Einführung](#einführung)
 
-* [Konzept](#konzept)
-
-* [Datenquellen](#datenquellen)
-
-* [Datenauswertung und -aufbereitung](#datenauswertung)
-
-
 ## <a name="einführung"></a> Einführung 
 Barcelonas Luftqualität während einer Pandemie
 
@@ -34,7 +27,9 @@ Aufgrund eines umfangreichen Datenangebots des städtischen Open Data Portals, w
 
 Unser Dashboard wurde dabei mit Plotly/Dash umgesetzt.
 
-## <a name="datenquellen"></a> Datenquellen 
+## Daten
+
+### <a name="datenquellen"></a> Datenquellen 
 Als zentrale Datenquelle der Luftqualitätsdaten Barcelonas, wurde das [Open Data Portal](https://opendata-ajuntament.barcelona.cat/data/en/dataset) der Stadt Barcelona gewählt. Das Open Data Portal überzeugte hierbei durch eine großen Datenvielfalt und einer Sprachauswahlmöglichkeit, welche wir bei anderen Open Data Portalen, wie zum Beispiel das Datenportal Den Haags, vermisst haben. Gemessene Daten zur Luftqualität werden seit dem Jahr 2018 von sieben Messstationen auf diesem Portal zur Verfügung gestellt. Es werden Daten zu Kohlenstoffmonoxid (CO), Stickstoffmonoxid (NO), Stickstoffdioxid (NO<sub>2</sub>), Ozon (<sub>3</sub>), Schwefeldioxid (SO<sub>2</sub>) und der Feinstaub Partikelgröße PM10 erhoben, wobei nicht alle Messstationen alle Schadstoffe messen. Aufgrund einer geänderten Datenstrukturierung seit April 2019, wurden ab diesem Zeitpunkt die Luftqualitätsdaten im Projekt verwendet. Ältere Daten konnten aufgrund der erfolgten Änderungen nicht sinnvoll verwendet werden. Die Daten lagen monatsweise im csv-Format vor.
 
 Die im Projekt verwendeten Corona Infektions- und Todeszahlen der Stadt Barcelona, entstammen aus... und lagen für die einzelnen Monate im Format vor.
@@ -43,7 +38,7 @@ Die Datem zu Ereignissen und Maßnahmen wurden aus verschiedenen Nachrichtenport
 
 Im Rahmen einer Anfrage an die Universitat Politècnica de Catalunya, einer technischen Universität in Barcelona, die eigene Luftmessstationen betreibt, erhofften wir uns weitere Luftqualitätsdaten zu erhalten, um eine breitere, aussagekräftigere Datenbasis zu erhalten. Zu unserem Bedauern konnten uns allerdings keine für unser Projekt hilfreiche Datensätze zur Verfügung gestellt werden.
 
-## <a name="datenauswertung"></a> Datenauswertung und -aufbereitung 
+### <a name="datenauswertung"></a> Datenauswertung und -aufbereitung 
 
 Die Daten der spanischen Ereignisse rund um Corona wurden in einer csv-Datei zusammengefasst und mit dem jeweiligen Datum versehen.
 
