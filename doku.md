@@ -88,7 +88,7 @@ Neben den Anforderung für die Visualisierung stellen sich wie oben beschrieben 
 
 - (13) Auswahlmöglichkeit zur Betrachtung der Messwerte einer einzelnen Stationen
 
-Eine ausführliche Beschreibung der entwickelten Anforderung inklusive Begründungen finden sie in diesem weiterführenden Dokument [NOCH EINZFÜGEN](https:/www.google.de).
+Eine ausführliche Beschreibung der entwickelten Anforderung inklusive Begründungen finden sie in diesem weiterführenden Dokument [NOCH EINZFÜGEN](https://google.de).
 
 ### Visualisierung
 
